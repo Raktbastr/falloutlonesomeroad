@@ -1,0 +1,5 @@
+NAME = Fallout: Lonesome Road
+ALTNAME = falloutlonesomeroad
+REMOTEURL =
+GAMEVERSION = Alpha v1.0
+ENGINEVERSION = Alpha v1.0
