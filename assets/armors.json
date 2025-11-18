@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Nothing",
+    "desc": "Luckily you have skin, that's enough right?",
+    "type": "skin",
+    "resistances": {
+      "bash": 0,
+      "slash": 0,
+      "balistic": 0,
+      "laser": 0,
+      "plasma": 0
+    },
+    "unit": "dr",
+    "weight": -1,
+    "cost": -1
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Fists",
+    "desc": "Your fists, ",
+    "type": "bash",
+    "ammo": "none",
+    "dmg": 2,
+    "cost": -1,
+    "weight": -1
+  },
+  {
+    "name": "Combat Knife",
+    "desc": "A combat knife, does 5 slash damage",
+    "type": "slash",
+    "ammo": "none",
+    "dmg": 5,
+    "cost": 5,
+    "weight": 1
+  },
+  {
+    "name": "Ripper",
+    "desc": "A ripper, does 10 slash damage",
+    "type": "slash",
+    "ammo": "none",
+    "dmg": 5,
+    "cost": 5,
+    "weight": 1
+  },
+  {
+    "name": "Chainsaw",
+    "desc": "A combat knife, does 5 slash damage",
+    "type": "slash",
+    "ammo": "none",
+    "dmg": 5,
+    "cost": 5,
+    "weight": 1
+  },
+  {
+    "name": "Baseball Bat",
+    "desc": "A baseball bat, does 5 bash damage",
+    "type": "bash",
+    "ammo": "none",
+    "dmg": 5,
+    "cost": 5,
+    "weight": 1
+  },
+      {
+    "name": "Power Fist",
+    "desc": "A shovel, does 15 bash damage",
+    "type": "bash",
+    "ammo": "none",
+    "dmg": 15,
+    "cost": 10,
+    "weight": 2
+  },
+  {
+    "name": "Super Sledge",
+    "desc": "A super sledge, does 30 bash damage",
+    "type": "bash",
+    "ammo": "none",
+    "dmg": 30,
+    "cost": 10,
+    "weight": 15
+  },
+  {
+    "name": "10mm Pistol",
+    "desc": "A 10mm pistol, does 10 ballistic damage",
+    "type": "ballistic",
+    "ammo": "10",
+    "dmg": 10,
+    "cost": 10,
+    "weight": 2
+  },
+  {
+    "name": "Hunting Rifle",
+    "desc": "A hunting rifle, does 15 balistic damage",
+    "type": "ballistic",
+    "ammo": "308",
+    "dmg": 10,
+    "cost": 10,
+    "weight": 2
+}
+]
