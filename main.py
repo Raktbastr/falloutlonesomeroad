@@ -41,12 +41,18 @@ if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
     os.makedirs(os.path.join(DATA_DIR, 'saves'))
 
+CURRENT_SCREEN = 'main'
+
 class Main(App):
     from engine import savesys
-    from lonesomeroad.scenes import mainmenu
+    from engine.scenes import quitinator
+    from lonesomeroad.scenes import mainmenu, charactercreator
     SCREENS = {
         "main": mainmenu.MenuScreen,
-        "load": savesys.LoadScreen
+        "load": savesys.LoadScreen,
+        "save": savesys.SaveScreen,
+        "quit": quitinator.QuitScreen,
+        "create_character": charactercreator.NGScreen
     }
     def compose(self):
         return []

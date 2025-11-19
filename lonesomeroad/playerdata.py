@@ -43,3 +43,5 @@ BOS_REP = 0
 
 # Days until the player can scavenge again
 DAYS_UNTIL_SCAV = 0
+
+PREV_SCREEN = ''
