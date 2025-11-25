@@ -1,5 +1,5 @@
 from textual.screen import Screen
-from textual.widgets import Button, TextArea
+from textual.widgets import Button, Static
 from textual.app import ComposeResult
 from textual.containers import Horizontal, VerticalScroll
 from engine.savesys import loadable_amt
@@ -7,7 +7,7 @@ from lonesomeroad import playerdata
 
 class MenuScreen(Screen):
     def compose(self) -> ComposeResult:
-        yield TextArea('Fallout: Lonesome Road')
+        yield Static('Fallout: Lonesome Road')
         yield Horizontal(
             VerticalScroll(
                 Button('New Game', id='new'),

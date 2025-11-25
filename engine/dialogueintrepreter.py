@@ -22,8 +22,7 @@ def read_dialogue(file, convo):
                 startnum = idx
             elif line.startswith(f'[END {convo}]'):
                 endnum = idx
-            if '{name}' in line:
-                line.replace('{name}', actor)
+            line.replace('{NAME}', playerdata.NAME)
             x.append(line)
         for idx, line in enumerate(x):
             if startnum < idx < endnum:

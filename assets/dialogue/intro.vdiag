@@ -7,7 +7,7 @@ actor = ignore
 ||          FROM: maincom@192.168.1.58
 |||||||||
 
-Dear {name},
+Dear {NAME},
     Ignore all previous directives. You are hereby ordered to proceed to Camp Navarro immediately in order to
 procure high-value assets. More information will be given to you once you reach your destination. Take minimal
 supplies and proceed with caution, you will be alone. Maintain secrecy of your identity as an Enclave Soldier
